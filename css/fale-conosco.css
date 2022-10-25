@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+html, body{
+  height: 100%;
+}
+
+header{
+  background-color: white;
+}
+
+header .menu{
+  width: 100%;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .menu h4{
+  font-size: 30px;
+  font-style: bold;
+  color: #015958;
+}
+
+header .menu ul{
+  display: flex;
+  list-style-type: none;
+}
+
+header .menu ul li{
+  margin: 0 10px;
+}
+
+header .menu ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #008F8C;
+}
+
+header .menu ul li a:hover{
+  text-decoration: underline;
+}
+
+header .menu button{
+  background-color: #008F8C;
+  color: white;
+  padding: 10px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+header .banner{
+  width: 90%;
+  margin: 0 auto;
+}
+
+header .banner h1{
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+header .banner form{
+  width: 50%;
+}
+
+header .nomeEEmail{
+  display: flex;
+}
+
+header .banner input{
+  border: 2px solid #ccc;
+  width: 420px;
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+header .banner input[type="email"]{
+  border: 2px solid #ccc;
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+header .banner textarea{
+  border: 2px solid #ccc;
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 10px;
+  resize: none;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+header .banner textarea::placeholder{
+  color: black;
+}
+
+header .banner button{
+  background-color: #008F8C;
+  padding: 10px 60px;
+  color: white;
+  border: none;
+  font-size: 22px;
+  border-radius: 8px;
+}
