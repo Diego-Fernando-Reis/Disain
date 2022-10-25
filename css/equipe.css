@@ -62,14 +62,15 @@ header .banner{
   width: 90%;
   margin: 0 auto;
   display: flex;
+  padding: 40px 0;
 }
 
 header .banner .esquerda{
-  width: 50%;
+  width: 40%;
 }
 
 header .banner .direita{
-  width: 50%;
+  width: 60%;
 }
 
 header .banner .direita .cards{
@@ -87,7 +88,7 @@ header .banner .direita .cards .one{
   padding-top: 340px;
   margin-top: 70px;
   margin-right: 15px;
-  margin-bottom: 200px;
+  margin-bottom: 260px;
 }
 
 header .banner .direita .cards .two{
@@ -105,6 +106,6 @@ header .banner .direita .cards .three{
 header .banner .direita .cards .four{
   width: 240px;
   padding-top: 340px;
-  margin-top: 180px;
+  margin-top: 260px;
   margin-bottom: 70px;
 }

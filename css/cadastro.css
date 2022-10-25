@@ -61,22 +61,56 @@ header .menu button{
 header .banner{
   width: 90%;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 120px 0;
 }
 
-header .banner h1{
-  font-size: 50px;
+header .banner .titulo{
+  border-bottom: 0.5px solid #ccc;
+  padding-bottom: 10px;
+}
+
+header .banner h3{
+  font-size: 24px;
   font-weight: 400;
-  margin-top: 80px;
-  margin-bottom: 40px;
 }
 
-header .banner form{
+header .banner .cartao{
+  display: flex;
+  padding-top: 20px;
+}
+
+header .banner .esquerda{
   width: 50%;
 }
 
-header .nomeEEmail{
+header .banner .direita{
+  width: 50%;
+}
+
+header .banner .direita .sob{
   display: flex;
+}
+
+header .banner .direita .sob .direita{
+  width: 200px;
+  margin-left: 15px;
+}
+
+header .banner .direita .sob .esquerda{
+  width: 420px;
+}
+
+header .banner .direita .sub{
+  display: flex;
+}
+
+header .banner .direita .sub .direita{
+  width: 200px;
+  margin-left: 15px;
+}
+
+header .banner .direita .sub .esquerda{
+  width: 420px;
 }
 
 header .banner input{
@@ -89,45 +123,43 @@ header .banner input{
   margin-top: 10px;
 }
 
-header .banner input[type="email"]{
-  border: 2px solid #ccc;
-  height: 40px;
-  border-radius: 8px;
-  padding-left: 10px;
+header .banner .email{
+  display: flex;
+  border-top: 0.5px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-header .banner textarea{
-  border: 2px solid #ccc;
-  width: 100%;
-  border-radius: 8px;
-  padding-left: 10px;
-  resize: none;
-  margin-bottom: 30px;
-  padding-top: 10px;
-  margin-top: 10px;
-}
-
-.nome, .email, .telefone{
+header .banner .email .direita{
   width: 420px;
 }
 
-.email{
-  margin-left: 10px;
+header .banner .endereco{
+  border-top: 0.5px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
 }
 
-header .banner input::placeholder{
-  color: black;
+header .banner .endereco .direita{
+  width: 420px;
 }
 
-header .banner textarea::placeholder{
-  color: black;
+header .banner .endereco .direita .dupla{
+  display: flex;
+}
+
+header .banner .endereco .direita .dupla .direita{
+  margin-left: 15px;
 }
 
 header .banner button{
+  padding: 10px 40px;
   background-color: #008F8C;
-  padding: 10px 60px;
   color: white;
-  border: none;
-  font-size: 22px;
   border-radius: 8px;
+  border: none;
+  font-size: 24px;
+  margin-top: 40px;
+  
 }

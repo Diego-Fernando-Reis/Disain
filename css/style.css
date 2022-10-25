@@ -15,12 +15,29 @@ header{
 
 header .menu{
   width: 100%;
+  background-color: white;
+  transition: 2s;
+}
+
+header .menu .interno{
   display: flex;
   width: 90%;
   margin: 0 auto;
   padding: 20px 0;
   justify-content: space-between;
   align-items: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  -webkit-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
 }
 
 header .menu h4{
@@ -62,7 +79,7 @@ header .banner{
   width: 90%;
   margin: 60px auto;
   display: flex;
-  padding: 60px 0;
+  padding: 120px 0;
 }
 
 header .banner .esquerda{
@@ -152,12 +169,14 @@ main .title h3{
 
 main .mentores{
   width: 100%;
-  padding: 40px 0;
+  padding: 120px 0;
+  padding-bottom: 20px;
 }
 
 main .sobParte{
   width: 100%;
   display: flex;
+  margin-bottom: 120px;
 }
 
 main .sobParte .esquerda{
@@ -218,7 +237,7 @@ main .salario .cor{
   width: 90%;
   margin: 0 auto;
   display: flex;
-  padding: 50px 0;
+  padding: 120px 0;
 }
 
 main .salario .cor .esquerda{
@@ -269,7 +288,7 @@ main .depoimentos .depoimento{
 main .apps{
   width: 90%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 120px 0;
 }
 
 main .apps .esquerda{
@@ -281,3 +300,98 @@ main .apps .esquerda p{
   font-style: bolder;
 }
 
+main .promocao{
+  width: 90%;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+main .promocao .cards{
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+main .promocao .card{
+  width: 400px;
+  -webkit-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+}
+
+main .promocao .big{
+  margin-left: -5px;
+}
+
+main .promocao .card h3{
+  color: #015958;
+}
+
+main .promocao .card p{
+  text-align: left;
+}
+
+main .promocao .card button{
+  border: 3px solid #008F8C;
+  color: #008F8C;
+  padding: 10px 50px;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+main .metodologia{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 120px 0;
+}
+
+main .metodologia .esquerda{
+  width: 50%;
+}
+
+main .metodologia .direita{
+  width: 50%;
+}
+
+main .metodologia h4{
+  font-size: 22px;
+  color: #015958;
+}
+
+main .metodologia h2{
+  font-size: 40px;
+}
+
+main .metodologia .bloco{
+  width: 80%;
+  padding-top: 120px;
+  background-color: #ccc;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+main .perguntasFrequentes{
+  width: 90%;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+main .perguntasFrequentes .titulo{
+  width: 410px;
+  margin: 0 auto;
+}
+
+main .perguntasFrequentes h4{
+  font-size: 22px;
+  color: #015958;
+}
+
+main .perguntasFrequentes h2{
+  font-size: 40px;
+}
