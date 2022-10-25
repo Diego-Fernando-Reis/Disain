@@ -8,22 +8,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <title>Desain</title>
+  <title>Disain</title>
 </head>
-<body>
+<body onscroll="myFunction()">
   <header>
-    <div class="menu">
-      <div class="logo">
-        <h4>Disain</h4>
+    <div class="menu" id="navbar">
+      <div class="interno">
+        <div class="logo">
+          <h4>Disain</h4>
+        </div>
+        <ul>
+          <li><a href="./cursos.html">Cursos</a></li>
+          <li><a href="./equipe.html">Equipe</a></li>
+          <li><a href="./fale-conosco.html">Fale Conosco</a></li>
+          <li><a href="./quem-somos.html">Quem Somos</a></li>
+          <li><a href="">Entrar</a></li>
+        </ul>
+        <button>Cadastre-se</button>
       </div>
-      <ul>
-        <li><a href="">Cursos</a></li>
-        <li><a href="">Equipe</a></li>
-        <li><a href="">Fale Conosco</a></li>
-        <li><a href="">Quem Somos</a></li>
-        <li><a href="">Entrar</a></li>
-      </ul>
-      <button>Cadastre-se</button>
     </div>
     <div class="banner">
       <div class="esquerda">
@@ -158,22 +160,31 @@
           de introdução.</p>
       </div>
       <div class="direita">
-        <div class="google"></div>
-        <div class="apple"></div>
+        <div class="google" style="background-image: url('./images/googleplay.png');"></div>
+        <div class="apple" style="background-image: url('./images/appplay.png');"></div>
       </div>
     </div>
     <div class="promocao">
-      <div class="card">
-        <div class="titulo">
-          <h3>Curso Individual</h3>
+      <div class="cards">
+        <div class="card">
+          <div class="titulo">
+            <h3>Curso<br>Individual</h3>
+          </div>
+          <div class="conteudo">
+            <p>Acesso vitalício aos materiais de
+              apenas um curso e suas próximas
+              atualizações.</p>
+          </div>
+          <button>MATRICULE-SE</button>
         </div>
-        <button></button>
-      </div>
-      <div class="card big">
-        <div class="titulo">
-          <h3>Todos os Cursos</h3>
+        <div class="card big">
+          <div class="titulo">
+            <h3>Todos<br>os Cursos</h3>
+          </div>
+          <p>Faça quantos cursos quiser para
+            sempre e avance sua carreira.</p>
+          <button>MATRICULE-SE</button>
         </div>
-        <button></button>
       </div>
     </div>
     <div class="metodologia">
@@ -211,5 +222,6 @@
   <footer>
 
   </footer>
+  <script src="./js/index.js"></script>
 </body>
 </html>

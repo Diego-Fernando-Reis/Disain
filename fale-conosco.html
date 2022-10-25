@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fale Conosco</title>
-</head>
-<body>
-  <header>
-    <div class="menu">
-      <div class="logo">
-        <img src="" alt="">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fale-conosco.css">
+    <title>Disain</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <div class="logo">
+          <h4>Disain</h4>
+        </div>
+        <ul>
+          <li><a href="./cursos.html">Cursos</a></li>
+          <li><a href="./equipe.html">Equipe</a></li>
+          <li><a href="./fale-conosco.html">Fale Conosco</a></li>
+          <li><a href="./quem-somos.html">Quem Somos</a></li>
+          <li><a href="">Entrar</a></li>
+        </ul>
+        <button>Cadastre-se</button>
       </div>
-      <ul>
-        <li><a href="">Cursos</a></li>
-        <li><a href="">Equipe</a></li>
-        <li><a href="">Fale Conosco</a></li>
-        <li><a href="">Quem Somos</a></li>
-        <li><a href="">Entrar</a></li>
-        <button>Cadestre-se</button>
-      </ul>
-    </div>
     <div class="banner">
       <div class="titulo">
         <h1>Olá, ficaremos felizes <br>em falar com você.</h1>
         <form action="">
           <div class="nomeEEmail">
-            <input type="text" value="Nome">
-            <input type="email" value="Email">
+            <div class="nome">
+              <label for="">Nome</label>
+              <input type="text">
+            </div>
+            <div class="email">
+              <label for="">Email</label>
+              <input type="email">
+            </div>
           </div>
-          <input type="text" value="Telefone">
+          <div class="telefone">
+            <label for="">Telefone</label>
+            <input type="text">
+          </div>
+          
+          <label for="">Mensagem</label>
           <textarea name="" id="" cols="30" rows="10"></textarea>
           <button>Enviar</button>
         </form>
