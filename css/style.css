@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+html, body{
+  height: 100%;
+}
+
+header{
+  background-color: white;
+}
+
+header .menu{
+  width: 100%;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .menu h4{
+  font-size: 30px;
+  font-style: bold;
+  color: #015958;
+}
+
+header .menu ul{
+  display: flex;
+  list-style-type: none;
+}
+
+header .menu ul li{
+  margin: 0 10px;
+}
+
+header .menu ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #008F8C;
+}
+
+header .menu ul li a:hover{
+  text-decoration: underline;
+}
+
+header .menu button{
+  background-color: #008F8C;
+  color: white;
+  padding: 10px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+header .banner{
+  width: 90%;
+  margin: 60px auto;
+  display: flex;
+  padding: 60px 0;
+}
+
+header .banner .esquerda{
+  width: 50%;
+}
+
+header .banner h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+header .banner span{
+  color: #008F8C;
+}
+
+header .banner p{
+  font-style: italic;
+  color: #015958;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+header .banner .direita{
+  width: 50%;
+}
+
+header .direita .card{
+  width: 100%;
+  -webkit-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  padding: 50px 40px;
+  padding-bottom: 70px;
+}
+header .direita .card h3{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+header .card p{
+  color: rgb(255, 61, 61);
+  margin-bottom: 20px;
+}
+
+header .card span{
+  font-size: 20px;
+  color: rgb(255, 61, 61);
+  text-decoration: line-through;
+}
+
+header .direita .card h2{
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+header .direita .card button{
+  font-size: 30px;
+  background-color: #008F8C;
+  color: white;
+  border: none;
+  padding: 6px 50px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+main{
+  background-color: white;
+  margin: 0 auto;
+}
+
+main .title{
+  text-align: center;
+}
+
+main .title h2{
+  font-size: 50px;
+}
+
+main .title h3{
+  font-style: italic;
+  color: #015958;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+main .mentores{
+  width: 100%;
+  padding: 40px 0;
+}
+
+main .sobParte{
+  width: 100%;
+  display: flex;
+}
+
+main .sobParte .esquerda{
+  width: 50%;
+}
+
+main .sobParte .direita{
+  width: 50%;
+}
+
+main .sobParte h2{
+  font-size: 52px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+main .sobParte h3{
+  color: #015958;
+  width: 60%;
+  margin-bottom: 12px;
+}
+
+main .sobParte button{
+  padding: 10px 30px;
+  background-color: #008F8C;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
+main .mentores .subParte{
+  max-width: 900px;
+  margin: 30px auto;
+  -webkit-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  border-radius: 8px;
+  padding: 40px;
+}
+
+main .mentores .subParte h3{
+  font-size: 34px;
+  color: #015958;
+  margin-bottom: 20px;
+}
+
+main .mentores .subParte p{
+  width: 50%;
+}
+
+main .salario{
+  width: 100%;
+  background-color: #0fc2bf2f;
+  margin: 40px 0;
+}
+
+main .salario .cor{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 50px 0;
+}
+
+main .salario .cor .esquerda{
+  width: 50%;
+}
+
+main .salario .cor .direita{
+  width: 50%;
+}
+
+main .salario .cor .direita h2{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+main .salario .cor .direita h4{
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+main .salario .cor .direita h3{
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(114, 114, 114);
+  margin-bottom: 12px;
+}
+
+main .salario .cor .direita button{
+  background-color: #008F8C;
+  color: white;
+  padding: 15px 40px;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+}
+
+main .depoimentos{
+  width: 90%;
+}
+
+main .depoimentos .depoimento{
+  width: 30%;
+
+}
+
+main .apps{
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+main .apps .esquerda{
+  width: 30%;
+}
+
+main .apps .esquerda p{
+  font-size: 20px;
+  font-style: bolder;
+}
+
