@@ -73,3 +73,9 @@
     border-radius: 10px;
     cursor: pointer;
   }
+
+  header .banner{
+    width: 90%;
+    margin: 0 auto;
+    padding: 120px 0;
+  }
