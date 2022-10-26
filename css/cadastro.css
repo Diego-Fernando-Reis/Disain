@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+html, body{
+  height: 100%;
+}
+
+header{
+  background-color: white;
+}
+
+header .menu{
+  width: 100%;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .menu h4{
+  font-size: 30px;
+  font-style: bold;
+  color: #015958;
+}
+
+header .menu ul{
+  display: flex;
+  list-style-type: none;
+}
+
+header .menu ul li{
+  margin: 0 10px;
+}
+
+header .menu ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #008F8C;
+}
+
+header .menu ul li a:hover{
+  text-decoration: underline;
+}
+
+header .menu button{
+  background-color: #008F8C;
+  color: white;
+  padding: 10px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+header .banner{
+  width: 90%;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+header .banner .titulo{
+  border-bottom: 0.5px solid #ccc;
+  padding-bottom: 10px;
+}
+
+header .banner h3{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+header .banner .cartao{
+  display: flex;
+  padding-top: 20px;
+}
+
+header .banner .esquerda{
+  width: 50%;
+}
+
+header .banner .direita{
+  width: 50%;
+}
+
+header .banner .direita .sob{
+  display: flex;
+}
+
+header .banner .direita .sob .direita{
+  width: 200px;
+  margin-left: 15px;
+}
+
+header .banner .direita .sob .esquerda{
+  width: 420px;
+}
+
+header .banner .direita .sub{
+  display: flex;
+}
+
+header .banner .direita .sub .direita{
+  width: 200px;
+  margin-left: 15px;
+}
+
+header .banner .direita .sub .esquerda{
+  width: 420px;
+}
+
+header .banner input{
+  border: 2px solid #ccc;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+header .banner .email{
+  display: flex;
+  border-top: 0.5px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header .banner .email .direita{
+  width: 420px;
+}
+
+header .banner .endereco{
+  border-top: 0.5px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+header .banner .endereco .direita{
+  width: 420px;
+}
+
+header .banner .endereco .direita .dupla{
+  display: flex;
+}
+
+header .banner .endereco .direita .dupla .direita{
+  margin-left: 15px;
+}
+
+header .banner button{
+  padding: 10px 40px;
+  background-color: #008F8C;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 24px;
+  margin-top: 40px;
+  
+}
