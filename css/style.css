@@ -167,6 +167,55 @@ main .title h3{
   font-weight: 600;
 }
 
+main .secaoDeCursos{
+  width: 100%;
+  padding: 120px 0;
+}
+
+main .secaoDeCursos .slide{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px 0;
+}
+
+main .secaoDeCursos .slide .five, main .secaoDeCursos .slide .six{
+  display: none;
+}
+
+main .secaoDeCursos .slide .card{
+  width: 23%;
+  padding: 20px;
+  margin: 0 1%;
+  cursor: pointer;
+}
+
+main .secaoDeCursos .slide .card:hover{
+  padding: 22px 20px;
+  -webkit-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+main .secaoDeCursos .slide .card h2{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+main .secaoDeCursos .slide .card h3{
+  font-size: 18px;
+  color: #015958;
+  margin-bottom: 5px;
+}
+
+main .secaoDeCursos .slide .card h4{
+  font-size: 14px;
+  font-weight: 400;
+}
+
 main .mentores{
   width: 100%;
   padding: 120px 0;
@@ -319,8 +368,12 @@ main .promocao .card{
   box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
   text-align: center;
   border-radius: 8px;
-  padding: 20px;
+  padding: 40px 20px;
   background-color: white;
+}
+
+main .promocao .card .option{
+  margin-bottom: 20px;
 }
 
 main .promocao .big{
