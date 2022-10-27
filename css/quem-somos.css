@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+html, body{
+  height: 100%;
+}
+header{
+  background-color: white;
+}
+
+header .menu{
+  width: 100%;
+  background-color: white;
+  transition: 2s;
+}
+
+header .menu .interno{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  -webkit-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+}
+
+header .menu h4{
+  font-size: 30px;
+  font-style: bold;
+  color: #015958;
+}
+
+header .menu ul{
+  display: flex;
+  list-style-type: none;
+}
+
+header .menu ul li{
+  margin: 0 10px;
+}
+
+header .menu ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #008F8C;
+}
+
+header .menu ul li a:hover{
+  text-decoration: underline;
+}
+
+header .menu button{
+  background-color: #008F8C;
+  color: white;
+  padding: 10px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+header .banner{
+  width: 90%;
+  margin: 0 auto;
+  padding: 120px 0;
+  display: flex;
+}
+
+header .banner .esquerda{
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  padding-top: 600px;
+}
+
+header .banner .direita{
+  width: 50%;
+  padding: 0 20px;
+}
+
+header .banner .direita h1{
+  font-size: 50px;
+  color: #015958;
+  margin-bottom: 20px;
+}
+
+header .banner .direita h3{
+  font-size: 22px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.5;
+}
