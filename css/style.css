@@ -249,7 +249,7 @@ main .mentores{
 }
 
 main .sobParte{
-  width: 90%;
+  width: 80%;
   display: flex;
   margin: 0 auto;
   margin-bottom: 120px;
@@ -274,6 +274,7 @@ main .sobParte h2{
   font-size: 52px;
   font-weight: 500;
   margin-bottom: 12px;
+  max-width: 600px;
 }
 
 main .sobParte h3{
@@ -447,8 +448,9 @@ main .promocao .conteudo p{
 }
 
 main .promocao .conteudo p span{
-  font-size: 36px;
+  font-size: 42px;
   font-weight: bold;
+  color: #015958;
 }
 
 main .promocao button{
@@ -569,4 +571,39 @@ main .perguntasFrequentes h4{
 
 main .perguntasFrequentes h2{
   font-size: 40px;
+}
+
+@media screen and (max-width: 1200px){
+  header .banner{
+    display: block;
+  }
+  
+  header .banner .esquerda{
+    width: 100%;
+    margin-bottom: 120px;
+    text-align: center;
+  }
+  
+  header .banner .direita{
+    width: 100%;
+    text-align: center;
+  }
+  
+  header .direita .card{
+    width: 100%;
+    -webkit-box-shadow: 2px 2px 15px -3px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 2px 2px 15px -3px rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 15px -3px rgba(0, 0, 0, 0);
+    border-radius: 0;
+    border-top: 0.5px solid #ccc;
+    border-bottom: 0.5px solid #ccc;
+  }
+  
+  header .direita .card button{
+    width: 50%;
+  }
+
+  main .secaoDeCursos{
+    padding-top: 0;
+  }
 }

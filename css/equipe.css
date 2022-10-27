@@ -79,8 +79,10 @@ header .banner .direita .cards{
 }
 
 header .banner .direita .cards .card{
-  border: 2px solid #008F8C;
+  border: 4px solid #008F8C;
   border-radius: 8px;
+  background-position: center;
+  background-size: cover;
 }
 
 header .banner .direita .cards .one{

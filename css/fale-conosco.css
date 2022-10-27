@@ -27,6 +27,7 @@ header .menu h4{
   font-size: 30px;
   font-style: bold;
   color: #015958;
+  cursor: pointer;
 }
 
 header .menu ul{
@@ -59,9 +60,10 @@ header .menu button{
 }
 
 header .banner{
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 40px 0;
+  display: flex;
 }
 
 header .banner h1{
@@ -72,7 +74,7 @@ header .banner h1{
 }
 
 header .banner form{
-  width: 50%;
+  width: 100%;
 }
 
 header .nomeEEmail{
@@ -130,4 +132,17 @@ header .banner button{
   border: none;
   font-size: 22px;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+header .banner .esquerda{
+  width: 50%;
+  margin: 0 5%;
+}
+
+header .banner .direita{
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  background-color: #008F8C;
 }

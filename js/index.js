@@ -15,12 +15,30 @@ function myFunction(){
 
 var swiper = new Swiper(".swiper", {
   slidesPerView: 4,
-  cssMode: true,
   loop: true,
-  slidesPerGroup: 4,
+  slidesPerGroup: 1,
+  
+  spaceBetween: 40,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    400: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    800: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 40
+    }
   },
   keyboard: true,
 });
