@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Outfit', sans-serif;
+  scroll-behavior: smooth;
 }
 
 html, body{
@@ -17,6 +18,7 @@ header .menu{
   width: 100%;
   background-color: white;
   transition: 2s;
+  z-index: 999;
 }
 
 header .menu .interno{
@@ -170,28 +172,52 @@ main .title h3{
 main .secaoDeCursos{
   width: 100%;
   padding: 120px 0;
+  padding-bottom: 0;
+  position: relative;
 }
 
-main .secaoDeCursos .slide{
-  width: 90%;
+.arrows{
+  font-size: 50px;
+  color: #015958;
+  background-color: red;
+}
+
+.arrow1{
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  cursor: pointer;
+}
+
+.arrow2{
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  cursor: pointer;
+}
+
+main .secaoDeCursos .swiper-wrapper{
+  width: 85%;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
   padding: 80px 0;
 }
 
-main .secaoDeCursos .slide .five, main .secaoDeCursos .slide .six{
-  display: none;
-}
-
-main .secaoDeCursos .slide .card{
-  width: 23%;
+main .secaoDeCursos .swiper-slide{
+  width: 1%;
   padding: 20px;
   margin: 0 1%;
   cursor: pointer;
 }
 
-main .secaoDeCursos .slide .card:hover{
+main .secaoDeCursos .swiper-slide .imagem{
+  width: 100%;
+  padding-top: 250px;
+  background-position: center;
+  background-size: cover;
+
+}
+
+main .secaoDeCursos .swiper-slide:hover{
   padding: 22px 20px;
   -webkit-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
   -moz-box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
@@ -200,18 +226,18 @@ main .secaoDeCursos .slide .card:hover{
   transition: 0.5s;
 }
 
-main .secaoDeCursos .slide .card h2{
+main .secaoDeCursos .swiper-slide h2{
   font-size: 22px;
   margin-bottom: 10px;
 }
 
-main .secaoDeCursos .slide .card h3{
+main .secaoDeCursos .swiper-slide h3{
   font-size: 18px;
   color: #015958;
   margin-bottom: 5px;
 }
 
-main .secaoDeCursos .slide .card h4{
+main .secaoDeCursos .swiper-slide h4{
   font-size: 14px;
   font-weight: 400;
 }
@@ -223,13 +249,21 @@ main .mentores{
 }
 
 main .sobParte{
-  width: 100%;
+  width: 90%;
   display: flex;
+  margin: 0 auto;
   margin-bottom: 120px;
+
 }
 
 main .sobParte .esquerda{
   width: 50%;
+  text-align: center;
+}
+
+main .sobParte .esquerda img{
+  width: 300px;
+  margin: 0 auto;
 }
 
 main .sobParte .direita{
@@ -255,6 +289,7 @@ main .sobParte button{
   font-size: 20px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 main .mentores .subParte{
   max-width: 900px;
@@ -323,6 +358,7 @@ main .salario .cor .direita button{
   font-size: 22px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 main .depoimentos{
@@ -338,15 +374,39 @@ main .apps{
   width: 90%;
   margin: 0 auto;
   padding: 120px 0;
+  display: flex;
 }
 
 main .apps .esquerda{
-  width: 30%;
+  width: 50%;
 }
 
 main .apps .esquerda p{
   font-size: 20px;
   font-style: bolder;
+  text-align: center;
+}
+
+main .apps .direita{
+  width: 50%;
+  display: flex;
+}
+
+main .apps .direita .google{
+  width: 250px;
+  padding-top: 60px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+main .apps .direita .apple{
+  width: 250px;
+  padding-top: 60px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 40px;
 }
 
 main .promocao{
@@ -368,16 +428,62 @@ main .promocao .card{
   box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
   text-align: center;
   border-radius: 8px;
-  padding: 40px 20px;
+  padding: 60px 40px;
   background-color: white;
+  text-align: center;
+}
+
+main .promocao .card .titulo{
+  margin-bottom: 10px;
+}
+
+main .promocao .conteudo .dois{
+  margin-bottom: 30px;
+}
+
+main .promocao .conteudo p{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+main .promocao .conteudo p span{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+main .promocao button{
+  margin-bottom: 50px;
 }
 
 main .promocao .card .option{
   margin-bottom: 20px;
+  display: flex;
+}
+
+main .promocao .card .option .check{
+  width: 20px;
+  height: 20px;
+  background-color: #008F8C;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+main .promocao .card .option2 .nocheck{
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+main .promocao .card .option2{
+  margin-bottom: 20px;
+  display: flex;
 }
 
 main .promocao .big{
   margin-left: -5px;
+  border: 3px solid #015958;
 }
 
 main .promocao .card h3{
@@ -404,6 +510,12 @@ main .metodologia{
   padding: 120px 0;
 }
 
+.sticky2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 main .metodologia .esquerda{
   width: 50%;
 }
@@ -423,10 +535,20 @@ main .metodologia h2{
 
 main .metodologia .bloco{
   width: 80%;
-  padding-top: 120px;
-  background-color: #ccc;
+  padding: 20px;
+  border: 2px solid #008F8C;
   margin: 0 auto;
   margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+main .metodologia .bloco p{
+  font-size: 20px;
+}
+
+main .metodologia .bloco span{
+  font-size: 24px;
+  color: #015958;
 }
 
 main .perguntasFrequentes{
