@@ -606,4 +606,100 @@ main .perguntasFrequentes h2{
   main .secaoDeCursos{
     padding-top: 0;
   }
+
+  main .sobParte{
+    display: block;
+  
+  }
+
+  main .sobParte .esquerda{
+    display: none;
+  
+  }
+
+  main .sobParte .direita{
+    width: 100%;
+    text-align: center;
+  }
+
+  main .sobParte h2{
+    max-width: 100%;
+  }
+  
+  main .sobParte h3{
+    width: 100%;
+  }
+  
+  main .sobParte button{
+    padding: 10px 30px;
+    background-color: #008F8C;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  main .subParte{
+    display: none;
+  
+  }
+
+  main .salario .cor{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding: 120px 0;
+  }
+  
+  main .salario .cor .esquerda{
+    display: none;
+  }
+
+  main .salario .cor .direita{
+    width: 100%;
+    text-align: center;
+  }
+
+  main .apps{
+    display: block;
+  }
+  
+  main .apps .esquerda{
+    display: none;
+  }
+
+  main .apps .direita{
+    width: 100%;
+  }
+
+  main .promocao{
+    margin-bottom: 0;
+  }
+
+  main .promocao .cards{
+    display: block;
+    width: 100%;
+  }
+
+  main .promocao .card{
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  main .metodologia{
+    display: block;
+  }
+
+  main .metodologia .esquerda{
+    width: 100%;
+  }
+  
+  main .metodologia .direita{
+    width: 100%;
+  }
+
+  main .metodologia .titulo{
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }

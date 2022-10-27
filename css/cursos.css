@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+html, body{
+  height: 100%;
+}
+
+header{
+  background-color: white;
+}
+
+header .menu{
+  width: 100%;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .menu h4{
+  font-size: 30px;
+  font-style: bold;
+  color: #015958;
+}
+
+header .menu ul{
+  display: flex;
+  list-style-type: none;
+}
+
+header .menu ul li{
+  margin: 0 10px;
+}
+
+header .menu ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #008F8C;
+}
+
+header .menu ul li a:hover{
+  text-decoration: underline;
+}
+
+header .menu button{
+  background-color: #008F8C;
+  color: white;
+  padding: 10px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+header .banner{
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+header .banner .title{
+  text-align: center;
+  color: #015958;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.swiper-slide{
+  margin-bottom: 20px;
+  border: 2px solid #015958;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+header .banner .interno h2{
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+
+header .banner .interno h3{
+  font-size: 22px;
+  margin-bottom: 10px;
+  
+}
+header .banner .interno h3{
+  font-size: 22px;
+  margin-bottom: 10px;
+  
+}
+
+header .banner .interno h4{
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+header .banner .interno button{
+  background-color: #015958;
+  padding: 10px 50px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.carrinho{
+  width: 150px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #015958;
+  position: fixed;
+  right: 25px;
+  bottom: 20px;
+}
+
+.carrinho .title{
+  color: white;
+}
+
+.carrinho button{
+  background-color: rgb(255, 86, 86);
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.carrinho .compras{
+  color: white;
+}
+
+.carrinho .valor p{
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#comprar{
+  background-color: white;
+  border: #008F8C;
+  color: #008F8C;
+}
+
+@media screen and (max-width: 1020px) {
+}

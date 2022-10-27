@@ -66,16 +66,27 @@ header .banner{
 }
 
 header .banner .esquerda{
-  width: 40%;
+  width: 50%;
+  padding: 120px 0;
+}
+
+header .banner .esquerda h1{
+  color: #015958;
+  font-size: 50px;
+}
+
+header .banner .esquerda h3{
+  font-size: 30px;
+  font-weight: 400;
 }
 
 header .banner .direita{
-  width: 60%;
+  width: 50%;
 }
 
 header .banner .direita .cards{
   display: flex;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 header .banner .direita .cards .card{
@@ -91,23 +102,73 @@ header .banner .direita .cards .one{
   margin-top: 70px;
   margin-right: 15px;
   margin-bottom: 260px;
+  position: relative;
 }
 
 header .banner .direita .cards .two{
   width: 240px;
   padding-top: 340px;
   margin-right: 15px;
+  position: relative;
 }
 
 header .banner .direita .cards .three{
   width: 240px;
-  padding-top: 360px;
+  padding-top: 340px;
   margin-top: 15px;
+  position: relative;
 }
 
 header .banner .direita .cards .four{
   width: 240px;
-  padding-top: 340px;
   margin-top: 260px;
   margin-bottom: 70px;
+  position: relative;
+  padding-top: 360px;
+}
+
+header .banner .direita .cards .filtro{
+  background-color: rgba(255, 255, 255, 0.493);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: 1s;
+}
+
+header .banner .direita .cards .filtro:hover{
+  opacity: 1;
+  transition: 1s;
+}
+
+header .banner .direita .cards .filtro h2{
+  color: #015958;
+}
+
+@media screen and (max-width: 1200px) {
+  header .banner{
+    display: block;
+  }
+
+  header .banner .esquerda{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  header .banner .esquerda h1{
+    color: #015958;
+    font-size: 50px;
+  }
+  
+  header .banner .esquerda h3{
+    display: none;
+  }
+
+  header .banner .direita{
+    width: 90%;
+    margin: 0 auto;
+  }
 }
