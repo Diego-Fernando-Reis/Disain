@@ -28,20 +28,21 @@
     <div class="banner">
       <div class="titulo">
         <h1>Olá, ficaremos felizes <br>em falar com você.</h1>
-        <form action="">
+        <div id="error"></div>
+        <form action="" id="form">
           <div class="nomeEEmail">
             <div class="nome">
               <label for="">Nome</label>
-              <input type="text">
+              <input type="text" id="nome">
             </div>
             <div class="email">
               <label for="">Email</label>
-              <input type="email">
+              <input type="email" id="email">
             </div>
           </div>
           <div class="telefone">
             <label for="">Telefone</label>
-            <input type="text">
+            <input type="text" id="telefone">
           </div>
           
           <label for="">Mensagem</label>
@@ -57,5 +58,6 @@
   <footer>
 
   </footer>
+  <script src="./js/contato.js"></script>
 </body>
 </html>
