@@ -103,5 +103,6 @@ esvaziar.addEventListener('click', ()=>{
   btn6.style.backgroundColor = '#015958'
   compras.innerHTML = '';
   valor.innerHTML = `<p>R$ 0</p>`
+  valorTotal = 0;
 })
 
