@@ -13,6 +13,12 @@ function myFunction(){
   
 }
 
+const ul = document.getElementById("ativo");
+
+function myFunction2(){
+  ul.classList.toggle("mystyle");
+}
+
 var swiper = new Swiper(".swiper", {
   slidesPerView: 4,
   loop: true,

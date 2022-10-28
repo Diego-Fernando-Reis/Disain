@@ -10,6 +10,10 @@ html, body{
   height: 100%;
 }
 
+.hamburguer{
+  display: none;
+}
+
 header{
   background-color: white;
 }
@@ -591,6 +595,33 @@ main .perguntasFrequentes h2{
 }
 
 @media screen and (max-width: 1200px){
+  .hamburguer{
+    display: block;
+  }
+
+  .mystyle {
+    display: none;
+  }
+
+  .hamburguer .bloco{
+    width: 25px;
+    padding-top: 3px;
+    margin-bottom: 5px;
+    background-color: #015958;
+  }
+
+  header .menu ul{
+    display: block;
+    position: absolute;
+    background-color: white;
+    padding: 10px 30px;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, 0);
+    border-radius: 3px;
+    border: 0.5px solid #ccc;
+  }
+
   header .banner{
     display: block;
   }
